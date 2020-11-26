@@ -1,0 +1,74 @@
+body 
+{
+    background:  #F3F3F3;
+    overflow-x: hidden;
+}
+section 
+{
+    width: 100vw;
+    height: 200px;
+    background-image: url(../img/artecapa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section .logo {
+    width: 86px;
+    margin: 92px 0 0 210px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.modal {
+    position: absolute;
+    top: 40px;
+    left: 35%;
+}
+.alert {
+    width: 384px;
+    height: 60px;
+    background:#73E6CBCC;
+    border: 2px solid #00B98E;
+    border-radius: 30px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: #008768;
+    display: none
+}
+
+.alert.on {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert p {
+  border-left: 1px solid #008768;
+  padding-left: 15px;
+  margin: 15px;
+}
+
+footer {
+    height: 62px;
+    background: transparent linear-gradient(116deg, #5A5789 0%, #2D2C45 100%);
+    border-radius: 4px;
+}
+
+footer .foot {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,192 @@
+.flex {
+    display: flex;
+    padding: 0;
+}
+fieldset {
+    max-width: 485px;
+    width: 100%;
+    height: 583px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 1px 2px #2E2D2C66;
+    border-radius: 4px;
+}
+
+fieldset:first-child {
+    margin-right: 30px;
+}
+
+fieldset:last-child {
+    background: #EBF0F5;
+    border: 1px solid #C4C8CC;
+    border-radius: 4px;
+}
+
+fieldset h1 {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: var(--preto-principal);
+    padding: 30px 0 20px 31px;
+}
+
+fieldset h3 {
+    width: 401px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: var(--preto-principal);
+    padding: 0 39px 30px 31px;
+}
+
+fieldset h2 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: var(--preto-principal);
+    margin: 0 39px 30px 31px;
+}
+
+fieldset div {
+    padding: 0 30px;
+}
+fieldset div label {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: var(--preto-principal);
+}
+fieldset div label span {
+    color: var(--vermelho);
+    padding-right: 4px;
+}
+fieldset div input {
+    width: 426px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    border-radius: 2px;
+    margin: 6px 0 4px 0 ;
+    font-size: 14px;
+    padding-left: 10px;
+    color: var(--preto-principal);
+}
+fieldset div input:focus {
+    outline: 2px solid #3570B2;
+}
+
+fieldset div p {
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: 0.15px;
+    color: var(--preto-principal);
+    margin-bottom: 20px;
+}
+
+fieldset .detalhes span {
+    width: 355px;
+    height: 39px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 0px;
+    color: #ABABAB
+}
+fieldset .detalhes .cinza {
+    color: #ABABAB
+}
+
+fieldset .telefone{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 30px;
+}
+
+fieldset .telefone input {
+    width: 142px;
+    height: 40px;
+}
+fieldset .telefone span {
+    margin-bottom: 30px;
+}
+fieldset button {
+    width: 88px;
+    height: 40px;
+    background:var(--azul-botao);
+    box-shadow: 0px 3px 6px #2E2D2C66;
+    border-radius: 20px;
+    border: none;
+    font-family: Open Sans;
+    font-size:16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+fieldset:last-child h1 {
+    color: var(--violeta-titulo);
+
+}
+fieldset:last-child .detalhes {
+    height: 46%;
+}
+fieldset:last-child .detalhes .mg {
+    margin-bottom: 20px;
+}
+
+fieldset:last-child .detalhes p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+fieldset:last-child .detalhes p:last-child{
+    font-weight: 600;
+}
+
+.for_slick_slider {
+    width: 550px;
+    display: flex;
+    padding: 19px 30px 0 30px;
+}
+.for_slick_slider .items {
+    width: 175px;
+    margin: 0px;
+}
+
+.for_slick_slider .items img {
+    width: 175px;
+}
+
+.prev img {
+    position: absolute;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    right: 91%;
+    top: 40%;
+    z-index: 1;
+}
+
+
+.next img {
+    position: absolute;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    left: 96%;
+    top: 40%;
+    z-index: 1;
+}
+
+  
+
+

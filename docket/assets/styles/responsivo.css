@@ -1,0 +1,153 @@
+@media (max-width:500px) /*mobile*/
+{
+
+    section .logo {
+        width: 57px;
+        margin: 55px 0 0 30px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    fieldset:first-child {
+        margin-right: 0;
+    }
+    fieldset{
+        width: 310px;
+        height: 784px;
+        margin-bottom: 20px;
+    }
+    
+    fieldset h3 {
+        width: 238px;
+    }
+    
+    fieldset div input {
+        width: 238px;
+    }
+    fieldset .flex {
+        display: inline-block;
+    }
+    fieldset .telefone input {
+        width: 238px;
+    }
+    .for_slick_slider {
+        width: 250px;
+        padding: 19px 15px 0 5px;
+    }
+    .prev img {
+        right: 80%;
+        top: 36%;
+    }
+    .next img {
+        left: 100%;
+        top: 36%;
+    }
+}
+
+
+@media (min-width: 501px) and (max-width:800px) /*tablet*/
+{
+    section .logo {
+        margin: 57px 0 0 155px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    fieldset:first-child {
+        margin-right: 0;
+    }
+    fieldset{
+        
+        max-width: 602px;
+        height: 704px;
+        margin-bottom: 20px;
+    }
+
+    fieldset div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    fieldset div input {
+        width: 350px;
+    }
+   
+    fieldset .telefone input {
+        width: 350px;
+    }
+  
+    .for_slick_slider {
+        width: 600px;
+    }
+    .prev img {
+        right: 90%;
+        top: 36%;
+    }
+    .next img {
+        left: 96%;
+        top: 36%;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width:1400px) /*note 1024px*/ 
+{
+    section .logo {
+        margin: 46px 0 0 126px;
+    }
+    main {
+        display: flex;
+        align-items: center;
+    }
+    fieldset:first-child {
+        margin-right: 0;
+    }
+    fieldset{
+        max-width: 400px;
+        height: 580px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    fieldset div input {
+        width: 330px;
+    }
+   
+    fieldset .telefone input {
+        width: 120px;
+    }
+  
+    .for_slick_slider {
+        width: 400px;
+    }
+    .for_slick_slider img {
+        padding-right: 68px;
+    }
+    .prev img {
+        right: 67%;
+        top: 36%;
+    }
+    .next img {
+        left: 96%;
+        top: 36%;
+    }
+    footer{
+        margin-top: 8%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width:2700px) /*note 1440px*/
+{
+    section .logo {
+        margin: 60px 0 0 148px;
+    }
+
+    footer{
+        margin-top: 8%;
+    }
+}

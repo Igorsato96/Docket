@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/root.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="assets/styles/fieldset.css">
+    <link rel="stylesheet" href="assets/styles/slick.css">
+    <link rel="stylesheet" href="assets/styles/responsivo.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <section>
+        <img class="logo" src="assets/img/logo 4k.svg" alt="">
+        <main>
+            <fieldset>
+                <h1>Venha trabalhar na Docket</h1>
+                <h3>Preencha o formulário abaixo e venha trabalhar em uma das startups mais desejadas do Brasil!</h3>
+                <h2>Dados pessoais</h2>
+                <form action="">
+                    <div>
+                        <label for=""><span>*</span>Nome completo:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui!" required />
+                        <p>Mensagem de feedback</p>
+                    </div>
+                    <div>
+                        <label for=""><span>*</span>E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="seunome@sobrenome.com.br" required />
+                        <p>Mensagem de feedback</p>
+                    </div>
+                    <div class="flex">
+                        <div class="telefone">
+                            <label for=""><span>*</span>Telefone 1:</label>
+                            <input type="tel" name="tele" id="tele" placeholder="(88) 8888-8888" required /> 
+                            <p>Mensagem de feedback</p>
+                        </div>
+                        <div class="telefone">
+                            <label for="">Telefone 2:</label>
+                            <input type="tel" name="tele2" id="tele2" placeholder="(88) 8888-8888">
+                            <p>Mensagem de feedback</p>
+                        </div>
+                    </div>
+                    <button id="enviar" type="submit">Enviar</button>
+                </form>
+            </fieldset>
+            <fieldset>
+                <h1>Venha trabalhar na Docket</h1>
+                <div class="detalhes">
+                    <span>Preencha o formulário e clique em "Enviar" após conferir atentamente.</span>
+                </div>
+                <h2>Seus projetos:</h2>
+                <div class="for_slick_slider multiple-items">
+                    <div class="items">
+                        <img src="assets/img/carrosel/0-5616x3744.png" alt="">
+                    </div>
+                    <div class="items">
+                      <img src="assets/img/carrosel/1001-5616x3744.png" alt="">
+                    </div>
+                    <div class="items">
+                        <img src="assets/img/carrosel/1001-5616x3744.png" alt="">
+                    </div>
+                    <div class="items">
+                    <img src="assets/img/carrosel/0-5616x3744.png" alt="">
+                    </div>
+                    <div class="items">
+                        <img src="assets/img/carrosel/0-5616x3744.png" alt="">
+                    </div>
+                    <div class="items">
+                    <img src="assets/img/carrosel/1001-5616x3744.png" alt="">
+                    </div>
+                </div>
+            </fieldset>
+        </main>
+        <div class="modal">
+            <div class="alert"><img src="assets/img/outline-check_circle-24px.svg" alt=""><p>Candidatura enviada com sucesso!</p></div>
+        </div>
+        <footer>
+            <div class="foot">DOCKET © 2019</div>
+        </footer>
+    </section>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/api.json"></script>
+</body>
+</html>
