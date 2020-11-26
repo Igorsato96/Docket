@@ -134,6 +134,7 @@ fieldset button {
 
 fieldset:last-child h1 {
     color: var(--violeta-titulo);
+    text-transform: uppercase;
 
 }
 fieldset:last-child .detalhes {
